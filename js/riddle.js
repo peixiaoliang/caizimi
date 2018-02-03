@@ -471,6 +471,7 @@ $(function(){
 				var _thisHtml=$(this).html()
 				$('.wz li').css('color','')
 				$(this).html('');
+				$(this).removeClass('active');
 				$(this).css({'background':""});
 				b--
 				for(var i=0;i<$(".wz1 li").length;i++){
