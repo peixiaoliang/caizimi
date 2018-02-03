@@ -170,7 +170,7 @@ html,body{
  	height: 1.04rem;
  	position: absolute;
  	left: calc(50% - 2.733333rem);
- 	top:4.5rem;
+ 	top:4.3rem;
  	text-align: center;
  	color: #C20430;
  	z-index: 2;
@@ -197,7 +197,7 @@ html,body{
  	height: 6rem;
  	position: absolute;
  	left: calc(50% - 4.5rem);
- 	top: 5.7rem;
+ 	top: 6.7rem;
  	z-index: 100;
  	}
  .wz1 li{
@@ -218,7 +218,7 @@ html,body{
  	background: url(../images/confirm_btm.png) no-repeat;
  	background-size: 100% 100%;
  	position: absolute;
- 	top:10.1rem;
+ 	top:11.1rem;
  	right: 1.28rem;
  	z-index: 100;
  }
@@ -229,7 +229,7 @@ html,body{
  	background:url(../images/delet_btm.png) no-repeat;
  	background-size: 100% 100%;
  	position: absolute;
- 	top:10.1rem;
+ 	top:11.1rem;
  	right: 4.2rem;
  	z-index: 100;
  }
