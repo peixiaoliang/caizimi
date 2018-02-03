@@ -148,7 +148,7 @@ html,body{
 	color: #E8C473;
 	font-size: 0.4rem;
 	position: absolute;
-	top: 2rem;
+	top: 1.8rem;
 	z-index: 10;
 }
 .content{
@@ -177,7 +177,7 @@ html,body{
  }
  .wz{
  	position: absolute;
- 	top:3.8rem;
+ 	top:4.5rem;
 
  		}
  .wz li{
@@ -197,7 +197,7 @@ html,body{
  	height: 6rem;
  	position: absolute;
  	left: calc(50% - 4.5rem);
- 	top: 6.8rem;
+ 	top: 6.7rem;
  	z-index: 100;
  	}
  .wz1 li{
