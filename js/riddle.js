@@ -481,8 +481,14 @@ $(function(){
 					}
 				}
 			})
+			
+			}
+			//重置所有变量，删除原来多余的内容
+			function fn(){
+				
+			}
 			$('.deltel').click(function(){
-				if($('.wz .active:last').length<0){
+				if($('.wz .active:last').length<=0){
 					return false;
 				}
 				var _thisHtml=$('.wz .active:last').html();
@@ -498,9 +504,4 @@ $(function(){
 					}
 				}
 			})
-			}
-			//重置所有变量，删除原来多余的内容
-			function fn(){
-				
-			}
 })
