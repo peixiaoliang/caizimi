@@ -1,0 +1,547 @@
+@charset "UTF-8";
+body, ul, li, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: '微软雅黑';
+}
+
+ul, li, h1, h2, h3, h4, h5, h6, p {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+img {
+  border: none;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+/*主页*/
+.riddles_background{
+	width: 100%;
+	height: 100%;
+	background: url(../images/background1.jpg) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.riddles_btm1{
+	width: 5.9rem;
+	height: 1.35rem;
+	position: absolute;
+	bottom:3.16rem;
+	left: 50%;
+	margin-left: -2.95rem;
+}
+.riddles_start{
+	width: 2.54rem;
+	height: 1.35rem;
+	background: url(../images/start_btm.png) no-repeat;
+	background-size: 100% 100%;
+	float: left;
+}
+.my_gifts{
+	width: 2.54rem;
+	height: 1.35rem;
+	background: url(../images/my_gift_btm.png) no-repeat;
+	background-size: 100% 100%;
+	float: right;
+}
+.game_guize{
+	width: 1.8rem;
+	height: 0.5rem;
+	line-height: 0.37rem;
+	text-align: center;
+	font-size: 0.42rem;
+	position: absolute;
+	left: 50%;
+	margin-left:-0.9rem;
+	bottom: 2rem;
+	color: #C20F2F;
+	border-bottom: 0.02rem solid #C20F2F;
+}
+.riddles_guize{
+	width: 100%;
+	height: 100%;
+	background: url(../images/background2.jpg) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	display: none;
+
+}
+.return_btmR{
+	width: 2.54rem;
+	height: 1.34rem;
+	background: url(../images/return_btmR.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	left: 50%;
+	margin-left: -1.27rem;
+	bottom: 1.75rem;
+
+}
+.prize_content{
+	width: 6.6rem;
+	position: absolute;
+	top:5.6rem;
+	left: 50%;
+	margin-left: -3.3rem;
+}
+.prize_box{
+	width: 100%;
+	height: 2.12rem;
+	margin-top: 0.2rem;
+}
+.prize_img{
+	width: 2.8rem;
+	height:  2.12rem;
+	float: left;
+	background: #fff;
+}
+.prize_name{
+	float: left;
+	width: 3.5rem;
+	margin-left: 0.3rem;
+	height:2.12rem;
+	overflow:hidden; 
+
+}
+.prize_name p{
+	font-size: 0.3rem;
+	color: #C20F2F;
+	width: 100%;
+
+}
+.prize_name p:nth-child(1){
+	margin-top: 0.5rem;
+}
+/*字谜页面*/
+.riddle{
+	width: 100%;
+	height: 100%;
+	background: url(../images/background4.jpg) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.header{
+	width: 100%;
+	text-align: center;
+	margin:0 auto;
+	color: #E8C473;
+	font-size: 0.4rem;
+	position: absolute;
+	top: 2.1rem;
+	z-index: 10;
+}
+.content{
+	width:11rem;
+	margin:0 auto;
+	position: absolute;
+	top:4rem;
+}
+.img{
+ 	width:5.2rem;
+ 	height: 4.4rem;
+ 	background: url(img/1.png) no-repeat; 
+ 	background-size: 100% 100%;
+ 	position: absolute;
+ 	left: calc(50% - 2.6rem);
+ }
+ .heder{
+ 	width: 5.466666rem;
+ 	height: 1.04rem;
+ 	position: absolute;
+ 	left: calc(50% - 2.733333rem);
+ 	top:4.6rem;
+ 	text-align: center;
+ 	color: #C20430;
+ 	z-index: 2;
+ }
+ .wz{
+ 	position: absolute;
+ 	top:5.2rem;
+
+ 		}
+ .wz li{
+ 	float: left;
+ 	position: relative;
+ 	margin-right: 0.066666rem;
+ 	width:2.14rem;
+ 	height: 2.14rem;
+ 	line-height:2rem;
+ 	color: #C20430;
+ 	text-align: center;
+ 	font-size: 0.9rem;
+ 	font-weight: bold;
+ }
+ .wz1{
+ 	width: 9rem;
+ 	height: 6rem;
+ 	position: absolute;
+ 	left: calc(50% - 4.5rem);
+ 	top: 7.7rem;
+ 	z-index: 100;
+ 	}
+ .wz1 li{
+ 	float: left;
+ 	width: 1.42rem;
+ 	height:1.42rem;
+ 	line-height: 1.42rem;
+ 	background:url(../images/text_back_S.png) no-repeat;
+ 	background-size: 100% 100%;
+ 	margin: 0.02rem;
+ 	color: #C69747;
+ 	font-size: 0.6rem;
+ 	text-align: center;
+ }
+ .next{
+ 	width: 2.9rem;
+ 	height: 1.42rem;
+ 	background: url(../images/confirm_btm.png) no-repeat;
+ 	background-size: 100% 100%;
+ 	position: absolute;
+ 	top:12.1rem;
+ 	right: 1.28rem;
+ 	z-index: 100;
+ }
+ .deltel{
+ 	width: 1.42rem;
+ 	height:1.42rem;
+ 	line-height: 1.42rem;
+ 	background:url(../images/delet_btm.png) no-repeat;
+ 	background-size: 100% 100%;
+ 	position: absolute;
+ 	top:12.1rem;
+ 	right: 4.2rem;
+ 	z-index: 100;
+ }
+ .tips{
+ 	width: 100%;
+ 	height: 100%;
+}
+ .tips_bg{
+ 	width: 100%;
+ 	height: 100%;
+ 	position: absolute;
+ 	top:0;
+ 	left: 0;
+ 	background-color: #C1032F;
+ 	opacity: 0.8;
+ 	z-index: 101;
+ }
+ .info_back{
+ 	width: 9.09rem;
+ 	height:4.63rem;
+ 	background:url(../images/info_back.png) no-repeat;
+ 	background-size: 100% 100%;
+ 	position: absolute;
+ 	top:50%;
+ 	margin-left: -4.545rem;
+ 	left:50%;
+ 	margin-top:-2.315rem;
+ 	z-index: 1001;
+ }
+ .next_btmY{
+ 	width: 2.62rem;
+ 	height:1.43rem;
+ 	background:url(../images/next_btmY.png) no-repeat;
+ 	background-size: 100% 100%;
+ 	position: absolute;
+ 	top:50%;
+ 	margin-left:-1.31rem;
+ 	left:50%;
+ 	margin-top:1.5rem;
+ 	z-index: 1002;
+ }
+.tips_wenzi{
+ 	width: 4.03rem;
+ 	height:0.75rem;
+ 	background:url(../images/riddle_tips.png) no-repeat;
+ 	background-size: 100% 100%;
+ 	position: absolute;
+ 	margin-left:-2.015rem;
+ 	left:50%;
+ 	bottom: 1rem;
+ 	z-index: 1002;
+ }
+ .tips1{
+ 	width: 100%;
+ 	height: 100%;
+ 	display: none;
+}
+.info_back_right{
+	width:6.2rem;
+ 	height:2.87rem;
+ 	background:url(../images/info_back_right.png) no-repeat;
+ 	background-size: 100% 100%;
+ 	position: absolute;
+ 	top:40%;
+ 	margin-left:-3.1rem;
+ 	left:50%;
+ 	margin-top:-1.435em;
+ 	z-index: 1002;
+}
+.tips1 .next_wenzi{
+ 	width: 2.62rem;
+ 	height:1.43rem;
+ 	background:url(../images/next_zimi.png) no-repeat;
+ 	background-size: 100% 100%;
+ 	position: absolute;
+ 	top:40%;
+ 	margin-left:-1.31rem;
+ 	left:50%;
+ 	margin-top:1.5rem;
+ 	z-index: 1003;
+ }
+ .tips2{
+ 	width: 100%;
+ 	height: 100%;
+ 	display: none;
+}
+.info_back_wrong{
+	width:6.2rem;
+ 	height:2.87rem;
+ 	background:url(../images/info_back_wrong.png) no-repeat;
+ 	background-size: 100% 100%;
+ 	position: absolute;
+ 	top:40%;
+ 	margin-left:-3.1rem;
+ 	left:50%;
+ 	margin-top:-1.435em;
+ 	z-index: 1002;
+}
+.tips2 .next_wenzi{
+ 	width: 2.62rem;
+ 	height:1.43rem;
+ 	background:url(../images/next_zimi1.png) no-repeat;
+ 	background-size: 100% 100%;
+ 	position: absolute;
+ 	top:40%;
+ 	margin-left:-1.31rem;
+ 	left:50%;
+ 	margin-top:1.5rem;
+ 	z-index: 1003;
+ }
+.riddles_prize{
+	width: 100%;
+	height: 100%;
+	background:url(../images/background5.jpg) no-repeat;
+ 	background-size: 100% 100%;
+ 	position: absolute;
+ 	z-index: 100;
+ 	/*display: none;*/
+}
+.riddles_prize .shumu{
+	width: 8rem;
+	position: absolute;
+	top:24%;
+	left:50%;
+	margin-left: -4rem;
+	text-align: center;
+}
+.riddles_prize .fenshu{
+	color: #C1032F;
+    font-size: 0.5rem;
+    font-weight: bold;
+    position: absolute;
+    top: 23%;
+    margin-left: 0.75rem;
+    left: 50%;
+    margin-top: 1.5rem;
+    z-index: 1003;
+}
+.riddles_prize .shumu p .fenshu{
+	color: #C1032F;
+	font-size: 0.5rem;
+	font-weight: bold;
+}
+.riddles_prize .shumu_tips p{
+	color: #C1032F;
+	font-size: 0.35rem;
+}
+.riddles_prize .shumu_tips{
+	width: 8rem;
+	position: absolute;
+	top:35.5%;
+	left:50%;
+	margin-left: -4rem;
+	text-align: center;
+}
+.riddles_wrong{
+	width: 100%;
+	height: 100%;
+	background:url(../images/riddle_lose.png) no-repeat;
+ 	background-size: 100% 100%;
+ 	position: absolute;
+ 	z-index: 100;
+ 	display: none;
+}
+.riddles_wrong .fenshu{
+	color: #C1032F;
+	font-size: 0.5rem;
+	font-weight: bold;
+	position: absolute;
+ 	top:40.5%;
+ 	margin-left:0.53rem;
+ 	left:50%;
+}
+.riddles_wrong .try_again{
+	width: 2.94rem;
+ 	height:1.34rem;
+ 	background:url(../images/try_again_btm.png) no-repeat;
+ 	background-size: 100% 100%;
+ 	position: absolute;
+ 	bottom:15%;
+ 	margin-left:-1.31rem;
+ 	left:50%;
+ 	z-index: 1003;
+}
+/*奖品领取页面*/
+.prize_wu{
+	width: 100%;
+	height: 100%;
+	background:url(../images/background6.jpg) no-repeat;
+ 	background-size: 100% 100%;
+ 	position: absolute;
+ 	z-index: 100;
+}
+.prize_wu .yanzheng{
+	width: 100%;
+	height: 1.6rem;
+}
+ .prize_wu .yanzheng .yanzheng_box{
+ 	width: 8.77rem;
+ 	height: 1.6rem;
+ 	margin:0 auto;
+ 	position: absolute;
+ 	bottom: 25%;
+ 	left:50%;
+ 	margin-left: -4.385rem;
+ }
+ .prize_wu .yanzheng .number{
+  	width: 6.3rem;
+ 	height: 1.6rem;
+ 	color: #E8C473;
+	float: left;
+	font-size: 0.5rem;
+	background: #FFE9C2;
+	padding-left: 0.5rem;
+  }
+.number::-webkit-input-placeholder{
+        color: #E8C473;
+        font-size: 0.45rem;
+}
+.number::-moz-placeholder{  
+        color: #E8C473; 
+        font-size: 0.45rem;
+}
+.number:-ms-input-placeholder{ 
+        color: #E8C473;
+        font-size: 0.45rem;
+}
+.prize_wu .yanzheng .yanzheng_btn{
+	width: 2.47rem;
+	height: 1.6rem;
+	background:url(../images/verify_btm.png) no-repeat;
+ 	background-size: 100% 100%;
+ 	float: left;
+  
+  }
+ .prize_wu .yanzheng .yan_tips{
+ 	width: 5.13rem;
+ 	height: 0.53rem;
+ 	position: absolute;
+ 	bottom: 21%;
+ 	left:50%;
+ 	margin-left: -4.385rem;
+ 	display: none;
+ }
+  .prize_wu .yanzheng .yan_tips img{
+  	width: 100%;
+  	height:100%;
+  }
+ .prize_wu .prize_con{
+	width: 4rem;
+	height: 3rem;
+	background: #fff;
+	position: absolute;
+	top:26%;
+	left:50%;
+	margin-left: -2rem;
+ }
+ .prize_wu .prize_nameing{
+ 	position: absolute;
+ 	top:48%;
+	width: 100%;
+	text-align: center;
+	font-size: 0.4rem;
+	color: #973A40;
+ }
+ .second_page{
+ 	width: 100%;
+ 	height: 100%;
+ 	position: absolute;
+ 	top:0;
+ 	left: 0;
+ 	background-color: #C1032F;
+ 	opacity: 0.8;
+ 	z-index: 1001;
+ 	display: none;
+ }
+.expired{
+	width: 5.39rem;
+	height: 3.73rem;
+	background:url(../images/expired.png) no-repeat;
+ 	background-size: 100% 100%;
+ 	position: absolute;
+ 	left: 50%;
+ 	top:50%;
+ 	margin-left: -2.695rem;
+ 	margin-top: -1.865rem;
+ 	z-index: 1002;
+ 	display: none;
+}
+.past{
+	width: 4.15rem;
+	height: 3.73rem;
+	background:url(../images/past.png) no-repeat;
+ 	background-size: 100% 100%;
+ 	position: absolute;
+ 	left: 50%;
+ 	top:50%;
+ 	margin-left: -2.075rem;
+ 	margin-top: -1.865rem;
+ 	z-index: 1002;
+ 	display: none;
+}
+.correct{
+	width: 2.43rem;
+	height: 3.73rem;
+	background:url(../images/correct.png) no-repeat;
+ 	background-size: 100% 100%;
+ 	position: absolute;
+ 	left: 50%;
+ 	top:50%;
+ 	margin-left: -1.215rem;
+ 	margin-top: -1.865rem;
+ 	z-index: 1002;
+ 	display: none;
+}
