@@ -320,7 +320,7 @@ $(function(){
 				for(var i=0;i<arr[bb].gs;i++){
 				$('.wz').append('<li></li>');
 				}
-				var wzwidth=($('.content').width()-$('.wz').width())/80;
+				var wzwidth=($('.content').width()-$('.wz').width())/75;
 				$('.wz').css('marginLeft',wzwidth+'rem');
 			};
 			function bt(bb){
