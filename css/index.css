@@ -47,7 +47,7 @@ html,body{
 	width: 5.9rem;
 	height: 1.35rem;
 	position: absolute;
-	bottom:3.16rem;
+	bottom:3.06rem;
 	left: 50%;
 	margin-left: -2.95rem;
 }
@@ -101,7 +101,7 @@ html,body{
 .prize_content{
 	width: 6.6rem;
 	position: absolute;
-	top:5.1rem;
+	top:5rem;
 	left: 50%;
 	margin-left: -3.3rem;
 }
@@ -170,7 +170,7 @@ html,body{
  	height: 1.04rem;
  	position: absolute;
  	left: calc(50% - 2.733333rem);
- 	top:3.8rem;
+ 	top:3.75rem;
  	text-align: center;
  	color: #C20430;
  	z-index: 2;
