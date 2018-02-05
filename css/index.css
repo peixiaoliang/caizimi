@@ -190,16 +190,16 @@ html,body{
  }
  .wz{
  	position: absolute;
- 	top:5.075rem;
+ 	top:5.15rem;
  	left: 0.15rem;
 
  		}
  .wz li{
  	float: left;
  	position: relative;
- 	margin-right: 0.066666rem;
- 	width:2.14rem;
- 	height: 2.14rem;
+ 	margin-right: 0.166666rem;
+ 	width:1.92rem;
+ 	height:1.92rem;
  	line-height:2rem;
  	color: #C20430;
  	text-align: center;
