@@ -37,4 +37,8 @@ $(function(){
 	$('.lose_try_again').click(function(){
 		location.href='index.html';
 	})
+	riddles_denglong=$('.riddles_denglong');
+	riddles_denglong.click(function(){
+		$('.win_prize').css('display','block');
+	})
 })

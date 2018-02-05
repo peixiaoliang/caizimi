@@ -137,9 +137,20 @@ html,body{
 .riddle{
 	width: 100%;
 	height: 100%;
-	background: url(../images/background4.jpg) no-repeat;
+	background: url(../images/background7.jpg) no-repeat;
 	background-size: 100% 100%;
 	position: relative;
+	/*display: none;*/
+}
+.riddle_top{
+	width: 100%;
+	height: 9.05rem;
+	background: url(../images/riddle_top.png) no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	margin:0 auto;
+	position: absolute;
+	top: 1.5rem;
 }
 .header{
 	width: 100%;
@@ -148,21 +159,22 @@ html,body{
 	color: #E8C473;
 	font-size: 0.4rem;
 	position: absolute;
-	top: 1.8rem;
+	top: 0.3rem;
 	z-index: 10;
 }
 .content{
 	width:11rem;
 	margin:0 auto;
 	position: absolute;
-	top:3.6rem;
+	top:2.75rem;
 }
 .img{
  	width:5.2rem;
- 	height: 3.5rem;
+ 	height: 3.7rem;
  	background: url(img/1.png) no-repeat; 
  	background-size: 100% 100%;
  	position: absolute;
+ 	top:-0.5rem;
  	left: calc(50% - 2.6rem);
  }
  .heder{
@@ -206,7 +218,7 @@ html,body{
  	width: 1.42rem;
  	height:1.42rem;
  	line-height: 1.42rem;
- 	background:url(../images/text_back_S.png) no-repeat;
+ 	background:url(../images/text_back_s.png) no-repeat;
  	background-size: 100% 100%;
  	margin: 0.02rem;
  	color: #C69747;
@@ -237,6 +249,7 @@ html,body{
  .tips{
  	width: 100%;
  	height: 100%;
+ 	display: none;
 }
  .tips_bg{
  	width: 100%;
@@ -344,19 +357,32 @@ html,body{
 .riddles_prize{
 	width: 100%;
 	height: 100%;
-	background:url(../images/background5.jpg) no-repeat;
+	background:url(../images/background7.jpg) no-repeat;
  	background-size: 100% 100%;
  	position: absolute;
  	z-index: 100;
  	display: none;
 }
-.riddles_prize .shumu{
-	width: 8rem;
+.riddles_prize_content{
+	width: 6.34rem;
+	height: 6.34rem;
+	background: url(../images/win.png) no-repeat;
+	background-size: 100% 100%;
 	position: absolute;
-	top:24%;
-	left:50%;
-	margin-left: -4rem;
-	text-align: center;
+	top: 1.5rem;
+	left: 50%;
+	margin-left: -3.17rem;
+
+}
+.riddles_denglong{
+	width:3.66rem;
+	height:7.15rem;
+	background: url(../images/luckdraw.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 33%;
+	left: 50%;
+	margin-left: -1.83rem;
 }
 .riddles_prize .fenshu{
 	color: #C1032F;
@@ -364,27 +390,10 @@ html,body{
     font-weight: bold;
     position: absolute;
     top: 23%;
-    margin-left: 0.75rem;
+    margin-left: 0.8rem;
     left: 50%;
-    margin-top: 1.35rem;
+    margin-top: 1.2rem;
     z-index: 1003;
-}
-.riddles_prize .shumu p .fenshu{
-	color: #C1032F;
-	font-size: 0.5rem;
-	font-weight: bold;
-}
-.riddles_prize .shumu_tips p{
-	color: #C1032F;
-	font-size: 0.35rem;
-}
-.riddles_prize .shumu_tips{
-	width: 8rem;
-	position: absolute;
-	top:35.5%;
-	left:50%;
-	margin-left: -4rem;
-	text-align: center;
 }
 .riddles_wrong{
 	width: 100%;
