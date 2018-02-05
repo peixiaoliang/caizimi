@@ -150,7 +150,7 @@ html,body{
 	text-align: center;
 	margin:0 auto;
 	position: absolute;
-	top: 1.5rem;
+	top: 1rem;
 }
 .header{
 	width: 100%;
@@ -166,7 +166,7 @@ html,body{
 	width:11rem;
 	margin:0 auto;
 	position: absolute;
-	top:2.75rem;
+	top:2.25rem;
 }
 .img{
  	width:5.2rem;
@@ -174,22 +174,23 @@ html,body{
  	background: url(img/1.png) no-repeat; 
  	background-size: 100% 100%;
  	position: absolute;
- 	top:-0.5rem;
- 	left: calc(50% - 2.6rem);
+ 	top:0rem;
+ 	left:50%;
+ 	margin-left: -2.6rem;
  }
  .heder{
  	width: 5.466666rem;
  	height: 1.04rem;
  	position: absolute;
  	left: calc(50% - 2.733333rem);
- 	top:3.75rem;
+ 	top:4.15rem;
  	text-align: center;
  	color: #C20430;
  	z-index: 2;
  }
  .wz{
  	position: absolute;
- 	top:4.575rem;
+ 	top:5.075rem;
  	left: 0.15rem;
 
  		}
@@ -210,7 +211,7 @@ html,body{
  	height: 6rem;
  	position: absolute;
  	left: calc(50% - 4.5rem);
- 	top: 6.9rem;
+ 	top: 7.3rem;
  	z-index: 100;
  	}
  .wz1 li{
@@ -231,7 +232,7 @@ html,body{
  	background: url(../images/confirm_btm.png) no-repeat;
  	background-size: 100% 100%;
  	position: absolute;
- 	top:11.31rem;
+ 	top:11.71rem;
  	right: 1.28rem;
  	z-index: 100;
  }
@@ -242,7 +243,7 @@ html,body{
  	background:url(../images/delet_btm.png) no-repeat;
  	background-size: 100% 100%;
  	position: absolute;
- 	top:11.31rem;
+ 	top:11.71rem;
  	right: 4.2rem;
  	z-index: 100;
  }
