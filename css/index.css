@@ -250,6 +250,7 @@ html,body{
  .tips{
  	width: 100%;
  	height: 100%;
+ 	/*display: none;*/
 }
  .tips_bg{
  	width: 100%;
@@ -398,18 +399,29 @@ html,body{
 .riddles_wrong{
 	width: 100%;
 	height: 100%;
-	background:url(../images/riddle_lose.png) no-repeat;
+	background:url(../images/background7.jpg) no-repeat;
  	background-size: 100% 100%;
  	position: absolute;
  	z-index: 100;
  	display: none;
+}
+.riddles_wrong_top{
+	width: 5.78rem;
+	height: 6.43rem;
+	background: url(../images/riddle-5-lose.png) no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	margin-left:-2.89rem;
+	top: 15%;
 }
 .riddles_wrong .fenshu{
 	color: #C1032F;
 	font-size: 0.5rem;
 	font-weight: bold;
 	position: absolute;
- 	top:40.5%;
+ 	top:1.9rem;
  	margin-left:0.53rem;
  	left:50%;
 }
@@ -419,7 +431,7 @@ html,body{
  	background:url(../images/try_again_btm.png) no-repeat;
  	background-size: 100% 100%;
  	position: absolute;
- 	bottom:15%;
+ 	bottom:18%;
  	margin-left:-1.31rem;
  	left:50%;
  	z-index: 1003;
