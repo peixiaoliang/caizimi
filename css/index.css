@@ -390,10 +390,9 @@ html,body{
     font-size: 0.5rem;
     font-weight: bold;
     position: absolute;
-    top: 23%;
+    top: 42%;
     margin-left: 0.8rem;
     left: 50%;
-    margin-top: 1.25rem;
     z-index: 1003;
 }
 .riddles_wrong{
