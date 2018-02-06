@@ -320,7 +320,7 @@ $(function(){
 				for(var i=0;i<arr[bb].gs;i++){
 				$('.wz').append('<li></li>');
 				}
-				var wzwidth=($('.content').width()-$('.wz').width())/80;
+				var wzwidth=($('.content').width()-$('.wz').width())/75;
 				$('.wz').css('marginLeft',wzwidth+'rem');
 			};
 			function bt(bb){
@@ -395,7 +395,7 @@ $(function(){
 					var _thisHtml=$(this).html()
 					for(var i=0;i<$('.wz li').length;i++){
 						if($('.wz li').eq(i).html()==''){
-							$('.wz li').eq(i).css({'background':"url(./images/text_back.png)",'background-size': '100% 100%'});
+							$('.wz li').eq(i).css({'background':"url(./images/text-back_s.png) no-repeat",'background-size': '100% 100%'});
 							$('.wz li').eq(i).addClass('active')
 							$('.wz li').eq(i).html(_thisHtml);
 							b++;
@@ -471,6 +471,7 @@ $(function(){
 				var _thisHtml=$(this).html()
 				$('.wz li').css('color','')
 				$(this).html('');
+				$(this).removeClass('active');
 				$(this).css({'background':""});
 				b--
 				for(var i=0;i<$(".wz1 li").length;i++){
@@ -481,8 +482,14 @@ $(function(){
 					}
 				}
 			})
+			
+			}
+			//重置所有变量，删除原来多余的内容
+			function fn(){
+				
+			}
 			$('.deltel').click(function(){
-				if($('.wz .active:last').length<0){
+				if($('.wz .active:last').length<=0){
 					return false;
 				}
 				var _thisHtml=$('.wz .active:last').html();
@@ -498,9 +505,4 @@ $(function(){
 					}
 				}
 			})
-			}
-			//重置所有变量，删除原来多余的内容
-			function fn(){
-				
-			}
 })

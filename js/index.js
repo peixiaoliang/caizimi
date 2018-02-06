@@ -31,4 +31,14 @@ $(function(){
 	$(".number").focus(function(){
 		$('.yan_tips').css('display','none');
 	})
+	$('.return_btn').click(function(){
+		location.href='index.html';
+	})
+	$('.lose_try_again').click(function(){
+		location.href='index.html';
+	})
+	riddles_denglong=$('.riddles_denglong');
+	riddles_denglong.click(function(){
+		$('.win_prize').css('display','block');
+	})
 })
